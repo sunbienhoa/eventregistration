@@ -1,6 +1,5 @@
-before_install:
-- gradle wrapper
-
 script:
 - gradle build -xtest
 
+before_install:
+- gradle wrapper
